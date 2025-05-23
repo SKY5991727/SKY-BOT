@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SKY BOT</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>SKY</h1>
+        <select id="platform">
+            <option>QUOTEX</option>
+        </select>
+        <select id="timeframe">
+            <option>5s</option>
+            <option>10s</option>
+            <option>15s</option>
+            <option>30s</option>
+            <option>1m</option>
+            <option>2m</option>
+            <option>5m</option>
+            <option>10m</option>
+            <option>15m</option>
+            <option>30m</option>
+        </select>
+        <button onclick="getSignal()">GET SIGNAL</button>
+        <p id="signal-output">Waiting for signal...</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
